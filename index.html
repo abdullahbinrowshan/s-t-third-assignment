@@ -16,7 +16,8 @@
                     colors: {
                         clifford: '#da373d',
                         textBG: '#00000090',
-                        primaryColor: '#289BDE'
+                        primaryColor: '#289BDE',
+                        primaryHover: '#28afd7'
                     }
                 }
             }
@@ -28,7 +29,7 @@
 
 <body>
     <!-- header start -->
-    <header>
+    <header class="container mx-auto">
         <nav class="bg-slate-50 border-gray-200 px-2 sm:px-4 py-2.5">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#">
@@ -122,47 +123,61 @@
             <div class="relative banner-height h-40 sm:h-52 lg:h-[28rem] overflow-hidden rounded-lg">
                 <!-- Item 1 -->
                 <div class="hidden relative duration-700 ease-in-out" data-carousel-item="active">
-                    <div
-                    class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                    <div class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                         <img src="images/cover/cover-1.png" alt="...">
                     </div>
-                    <div class="relative flex flex-col justify-end items-center pb-3 md:pb-10 text-center bg-textBG z-20 w-full h-40 sm:h-52 lg:h-[28rem] space-y-1 md:space-y-4">
+                    <div
+                        class="relative flex flex-col justify-end items-center pb-3 md:pb-10 text-center bg-textBG z-20 w-full h-40 sm:h-52 lg:h-[28rem] space-y-1 md:space-y-4">
                         <h2 class="text-white font-bold text-xl sm:text-2xl lg:text-5xl">
-                            Get Started Digital 
-                             <br>
-                            Learning</h2>
-                        <p class="text-gray-300 text-xs  mx-auto max-w-[670px]">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                        <button type="button" class=" text-white bg-primaryColor hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Started</button>
+                            Get Started Digital
+                            <br>
+                            Learning
+                        </h2>
+                        <p class="text-gray-300 text-xs  mx-auto max-w-[670px]">It is a long established fact that a
+                            reader will be distracted by the readable <br> content of a page when looking at its layout.
+                        </p>
+                        <button type="button"
+                            class=" text-white bg-primaryColor hover:bg-primaryHover focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mr-2 sm:mb-2 focus:outline-none">Get
+                            Started</button>
                     </div>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out h-full" data-carousel-item>
-                    <div
-                    class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                    <div class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                         <img src="images/cover/cover-2.jpg" alt="...">
                     </div>
-                    <div class="relative flex flex-col justify-end items-center pb-3 md:pb-10 text-center bg-textBG z-20 w-full h-40 sm:h-52 lg:h-[28rem] space-y-1 md:space-y-4">
+                    <div
+                        class="relative flex flex-col justify-end items-center pb-3 md:pb-10 text-center bg-textBG z-20 w-full h-40 sm:h-52 lg:h-[28rem] space-y-1 md:space-y-4">
                         <h2 class="text-white font-bold text-xl sm:text-2xl lg:text-5xl">
-                            Get Started Digital 
-                             <br>
-                            Learning</h2>
-                        <p class="text-gray-300 text-xs  mx-auto max-w-[670px]">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                        <button type="button" class=" text-white bg-primaryColor hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Started</button>
+                            Get Started Digital
+                            <br>
+                            Learning
+                        </h2>
+                        <p class="text-gray-300 text-xs  mx-auto max-w-[670px]">It is a long established fact that a
+                            reader will be distracted by the readable <br> content of a page when looking at its layout.
+                        </p>
+                        <button type="button"
+                            class=" text-white bg-primaryColor hover:bg-primaryHover focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mr-2 sm:mb-2 focus:outline-none">Get
+                            Started</button>
                     </div>
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div
-                    class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                    <div class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                         <img src="images/cover/cover-3.jpg" alt="...">
                     </div>
-                    <div class="relative flex flex-col justify-end items-center pb-3 md:pb-10 text-center bg-textBG z-20 w-full h-40 sm:h-52 lg:h-[28rem] space-y-1 md:space-y-4">
+                    <div
+                        class="relative flex flex-col justify-end items-center pb-3 md:pb-10 text-center bg-textBG z-20 w-full h-40 sm:h-52 lg:h-[28rem] space-y-1 md:space-y-4">
                         <h2 class="text-white font-bold text-xl sm:text-2xl lg:text-5xl">
-                            Get Started Digital 
-                             <br>
-                            Learning</h2>
-                        <p class="text-gray-300 text-xs  mx-auto max-w-[470px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <button type="button" class="text-white bg-primaryColor hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Started</button>
+                            Get Started Digital
+                            <br>
+                            Learning
+                        </h2>
+                        <p class="text-gray-300 text-xs  mx-auto max-w-[470px]">It is a long established fact that a
+                            reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <button type="button"
+                            class="text-white bg-primaryColor hover:bg-primaryHover focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mr-2 sm:mb-2 focus:outline-none">Get
+                            Started</button>
                     </div>
                 </div>
             </div>
@@ -172,8 +187,8 @@
                 data-carousel-prev>
                 <span
                     class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
-                    <svg aria-hidden="true" class="w-6 h-6 text-white" fill="none"
-                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg aria-hidden="true" class="w-6 h-6 text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
                         </path>
                     </svg>
@@ -185,8 +200,8 @@
                 data-carousel-next>
                 <span
                     class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
-                    <svg aria-hidden="true" class="w-6 h-6 text-white" fill="none"
-                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg aria-hidden="true" class="w-6 h-6 text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                     <span class="sr-only">Next</span>
@@ -201,18 +216,118 @@
     <main class="container mx-auto my-28">
         <!-- popular course section start -->
         <section>
-            <div class="text-center space-y-2">
+            <div class="text-center mb-20 space-y-2">
                 <h3 class="font-bold text-2xl md:text-3xl">
                     Discover Our Popular
                     <br>
-                        Courses
+                    Courses
                 </h3>
                 <p class="text-sm text-slate-700 max-w-[470px] mx-auto">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout.
                 </p>
             </div>
+            <div class="grid gap-4 items-center justify-center mx-3 lg:grid-cols-2">
+                <!-- course card 1 -->
+                <a
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg sm:flex-row md:max-w-full hover:bg-gray-100">
+                    <img class="object-cover w-full sm:w-auto rounded-t-lg h-56 sm:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-1.png" alt="">
+                    <div class="flex flex-col justify-between space-y-5 p-4 leading-normal">
+                        <h5 class="text-xl font-bold tracking-tight text-gray-700 ">Fundamental Of UI/UX Design
+                        </h5>
+                        <p class="font-normal text-gray-700">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
+                        <p class="font-bold text-base text-primaryColor">Price : 20$</p>
+                    </div>
+                </a>
+                <!-- course card 2 -->
+                <a
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg sm:flex-row md:max-w-full hover:bg-gray-100">
+                    <img class="object-cover w-full sm:w-auto rounded-t-lg h-56 sm:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-2.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-700 ">Javascript Basic to advanced
+                        </h5>
+                        <p class="mb-3 font-normal text-gray-700">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
+                        <p class="font-bold text-base text-primaryColor">Price : 20$</p>
+                    </div>
+                </a>
+                <!-- course card 3 -->
+                <a
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg sm:flex-row md:max-w-full hover:bg-gray-100">
+                    <img class="object-cover w-full sm:w-auto rounded-t-lg h-56 sm:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-3.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-700 ">Fullstack Web Development</h5>
+                        <p class="mb-3 font-normal text-gray-700">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
+                        <p class="font-bold text-base text-primaryColor">Price : 20$</p>
+                    </div>
+                </a>
+                <!-- course card 4 -->
+                <a
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg sm:flex-row md:max-w-full hover:bg-gray-100">
+                    <img class="object-cover w-full sm:w-auto rounded-t-lg h-56 sm:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-4.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-700 ">Digital Marketing</h5>
+                        <p class="mb-3 font-normal text-gray-700">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
+                        <p class="font-bold text-base text-primaryColor">Price : 20$</p>
+                    </div>
+                </a>
+                <!-- course card 5 -->
+                <a
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg sm:flex-row md:max-w-full hover:bg-gray-100">
+                    <img class="object-cover w-full sm:w-auto rounded-t-lg h-56 sm:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-5.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-700 ">Photography Basic Rules</h5>
+                        <p class="mb-3 font-normal text-gray-700">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
+                        <p class="font-bold text-base text-primaryColor">Price : 20$</p>
+                    </div>
+                </a>
+                <!-- course card 6 -->
+                <a
+                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg sm:flex-row md:max-w-full hover:bg-gray-100">
+                    <img class="object-cover w-full sm:w-auto rounded-t-lg h-56 sm:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-6.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-700 ">Motion Graphics</h5>
+                        <p class="mb-3 font-normal text-gray-700">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
+                        <p class="font-bold text-base text-primaryColor">Price : 20$</p>
+                    </div>
+                </a>
+            </div>
+            <button type="button"
+                class=" block mx-auto text-white bg-primaryColor hover:bg-primaryHover focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm w-28 sm:w-36 lg:w-40 py-2 md:py-2.5 mt-10 focus:outline-none ">View
+                All</button>
+
         </section>
         <!-- popular course section end -->
+
+        <!-- elearning institute start -->
+        <section class="my-36 mx-3">
+            <a
+                class="flex flex-col items-center bg-gray-50 border border-gray-200 rounded-lg shadow-lg sm:flex-row max-w-full hover:bg-gray-100">
+                <img class="object-cover w-auto rounded-t-lg h-auto md:rounded-none md:rounded-l-lg"
+                    src="images/working.png" alt="">
+                <div class="flex flex-col space-y-4 justify-between p-4 leading-normal">
+                    <h5 class="text-2xl font-bold tracking-tight text-gray-900">Explore The elearning Institute</h5>
+                    <p class="font-normal hidden md:block text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+
+                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                    <p class="font-normal hidden sm:block md:hidden text-gray-700"">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.... <span class="text-primaryColor font-bold">See More</span></p>
+                    <p class="font-normal block sm:hidden text-gray-700"">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.... <span class="text-primaryColor font-bold">See More</span></p>
+                    
+                </div>
+            </a>
+        </section>
+        <!-- elearning Institute end -->
     </main>
     <!-- main end -->
     <!-- flowbite script -->
